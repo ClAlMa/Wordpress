@@ -34,7 +34,7 @@ get_header();
 			while ( have_posts() ) :
 				the_post();
 ?>
-<div class="col-md-4 my-1 py-1">
+<div class="col-12 col-lg-6 col-xl-4 my-1 py-1">
 	<div class="card h-100 border-1">
 		<div class="embed-responsive embed-responsive-4by3">
 			<img src='<?php echo the_post_thumbnail_url(); ?>' alt="" class="img-fluid embed-responsive-item card-img-top">

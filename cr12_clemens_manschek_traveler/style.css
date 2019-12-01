@@ -113,6 +113,7 @@ pre {
 
 a {
 	background-color: transparent;
+	color: silver!important;
 }
 
 /**
@@ -488,7 +489,7 @@ ul, ol {
 }
 
 ul {
-	list-style: disc;
+	list-style: none;
 }
 
 ol {
@@ -618,17 +619,17 @@ textarea {
 --------------------------------------------------------------*/
 a {
 	/* color: royalblue; */
-	color: white;
+	color: silver;
 }
 
 a:visited {
 	/* color: purple; */
-	color: white;
+	color: silver;
 }
 
 a:hover, a:focus, a:active {
 	/* color: midnightblue; */
-	color: white;
+	color: silver;
 }
 
 a:focus {
