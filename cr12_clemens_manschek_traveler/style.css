@@ -990,3 +990,8 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+.card {
+	background-color:#99A682
+!important;
+}
