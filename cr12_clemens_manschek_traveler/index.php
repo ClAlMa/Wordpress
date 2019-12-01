@@ -41,7 +41,7 @@ get_header();
 		</div>
 		<div class="card-body">
 			<a href="<?php the_permalink(); ?>">
-<h1><?php the_title(); ?></h1>
+<h3><?php the_title(); ?></h3>
 </a>
 			 <p><?php the_content(); ?>
 						 </p>
